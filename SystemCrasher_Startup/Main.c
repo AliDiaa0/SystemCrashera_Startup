@@ -1,4 +1,6 @@
 ﻿#include <Windows.h>
+/*This is compatible with all Windows versions from XP to 11 (32-bit or 64-bit).
+	Created by Ali Diaa*/
 
 int reboot() {
 	HANDLE h;
@@ -18,7 +20,6 @@ int reboot() {
 	ExitWindowsEx(EWX_REBOOT | EWX_FORCEIFHUNG, 0);
 	return 0;
 }
-
 
 int set_critical() {
 	NTSTATUS(NTAPI * RtlAdjustPrivilege)(ULONG ulPrivilege, BOOLEAN bEnable, BOOLEAN bCurrentThread, PBOOLEAN pbEnabled);
