@@ -1,0 +1,8 @@
+﻿E:\Software\Microsoft Visual Studio\IDE\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+  Main.c
+  Generating code
+  3 of 4 functions (75.0%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SystemCrasher_Startup.vcxproj -> E:\Software\Microsoft Visual Studio\Projects\MSVC\SystemCrasher_Startup\Release\Crasher.exe
